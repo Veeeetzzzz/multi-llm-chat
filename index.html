@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat with LLM</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="model-selector">
+            <label for="modelSelect">Choose a model:</label>
+            <select name="models" id="modelSelect">
+                <option value="llm1">LLM #1</option>
+                <option value="llm2">LLM #2</option>
+                <!-- Add more models as options here -->
+            </select>
+        </div>
+        <div id="chat" class="chat-window"></div>
+        <input type="text" id="userInput" placeholder="Ask something...">
+        <button id="sendBtn">Send</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
